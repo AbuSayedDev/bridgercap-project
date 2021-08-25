@@ -1,0 +1,530 @@
+/*
+    * Project Name: Bridgercap
+    * Project Athor: Abu Sayed
+    * Project Athor URL: https://abusayed.info/
+    * Project Date: 24/08/2021
+*/
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul>li {
+    font-family: "Open Sans", sans-serif;
+    list-style: none;
+    font-weight: 400;
+}
+
+p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+    color: #666666;
+}
+
+a {
+    color: #9b0000;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Open Sans", sans-serif;
+}
+
+.cus-button {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: #9b0000;
+    text-align: center;
+    color: #fff;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+
+.cus-button:hover {
+    color: #fff;
+}
+
+/*====================================> Header CSS <=============================== */
+
+/* top-header */
+
+.top-header {
+    width: 100%;
+    height: auto;
+    background-color: #9b0000;
+    color: #fff;
+    padding: 7px 0;
+    clear: both;
+}
+
+.top-header .contact-list-area ul li {
+    list-style: inherit;
+    margin: 0px 20px;
+    font-size: 13px;
+}
+
+.top-header .contact-list-area ul li:first-child {
+    list-style: none;
+}
+
+/* main-header */
+.main-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 25;
+    background: #fff none repeat scroll 0 0;
+    clear: both;
+}
+
+.main-header .nav-area .nav-item .nav-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+.main-header .nav-area .nav-item .nav-link.active {
+    color: #9b0000;
+}
+
+.main-header .nav-area .nav-item .nav-link:hover {
+    color: #9b0000;
+}
+
+/*====================================> header-hore-wrapper CSS <=============================== */
+
+.header-hore-wrapper {
+    width: 100%;
+    height: auto;
+    clear: both;
+}
+
+.header-hero-wrapper {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 200px;
+}
+
+.header-hero-wrapper .header-hero-contant h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #9b0000;
+    margin-bottom: 20px;
+}
+
+.header-hero-wrapper .header-hero-contant .header-hero-contant-list {
+    font-size: 14px;
+    color: #000;
+    text-align: start;
+    margin: 0 133px;
+}
+
+.header-hero-wrapper .header-hero-contant .header-hero-contant-list li {
+    list-style: disc;
+}
+
+.header-hero-wrapper .header-hero-contant .header-hero-contant-list li::marker {
+    color: #9b0000;
+}
+
+/*====================================> main-wrapper  CSS <=============================== */
+
+/*====================================> 
+        main-content-wrapper  CSS 
+<=============================== */
+
+.main-content-wrapper {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.main-content-wrapper .main-hiro-area .text-content h1 {
+    font-size: 27px;
+    font-weight: bold;
+    color: #9b0000;
+    margin: 20px 0;
+}
+
+.main-content-wrapper .main-hiro-area .text-content h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.main-content-wrapper .main-hiro-area .text-content p {
+    text-align: center;
+}
+
+/* service-area */
+
+.service-area .item {
+    width: 100%;
+    height: auto;
+    text-align: center !important;
+    border-right: 1px solid #e5e5e5;
+    padding: 0 18px;
+}
+
+.service-area .item.border-none {
+    border-right: 1px solid #0000;
+}
+
+.service-area .item .item-content h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.service-area .item .item-content p {
+    text-align: center;
+}
+
+.service-area .item .item-content ul>li {
+    list-style-type: disc;
+    text-align: start;
+    font-size: 14px;
+}
+
+.service-area .item .item-content ul>ul {
+    margin-left: 20px;
+}
+
+.service-area .item .item-content ul>li::marker {
+    color: #9b0000;
+}
+
+/*====================================> 
+        sidebar-wrapper  CSS 
+<=============================== */
+
+/* card-area */
+
+.sidebar-wrapper .card-area {
+    width: 100%;
+    height: auto;
+    background-color: #9b0000;
+    color: #000;
+}
+
+.sidebar-wrapper .card-area ul>li {
+    padding: 7px 41px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.sidebar-wrapper .card-area ul>li:nth-of-type(1) {
+    padding: 20px 41px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sidebar-wrapper .card-area ul>li:nth-of-type(2) {
+    padding: 0px 0px;
+}
+
+.sidebar-wrapper .card-area ul>li:nth-of-type(3) {
+    background: #f25b46;
+}
+
+.sidebar-wrapper .card-area ul>li:nth-of-type(4) {
+    background: #e14735;
+}
+
+.sidebar-wrapper .card-area ul>li:nth-of-type(5) {
+    background: #ca3225;
+}
+
+.sidebar-wrapper .card-area ul>li:nth-of-type(6) {
+    background: #ae1410;
+}
+
+.sidebar-wrapper .card-area ul>li:nth-of-type(7) {
+    padding: 25px 41px;
+    text-align: center;
+    background: #9b0000;
+}
+
+.sidebar-wrapper .card-area ul>li>a {
+    font-weight: 500;
+    color: #fff;
+    background: #7f0000;
+    padding: 7px 15px;
+    border-radius: 50px;
+    font-size: 12px;
+}
+
+/* card-list-area */
+
+.sidebar-wrapper .card-list-area {
+    width: 100%;
+    height: auto;
+    padding: 20px 41px;
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+.sidebar-wrapper .card-list-area .heading h4 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+}
+
+.sidebar-wrapper .card-list-area ul>li {
+    padding: 2px 0;
+    list-style: disc;
+}
+
+.sidebar-wrapper .card-list-area ul>li::marker {
+    color: #9b0000;
+}
+
+.sidebar-wrapper .card-list-area ul>li>a {
+    font-size: 14px;
+    color: #666666;
+}
+
+.sidebar-wrapper .card-list-area ul>li>a:hover {
+    font-size: 14px;
+    color: #9b0000;
+}
+
+/* bgcard-list-area */
+
+.sidebar-wrapper .bgcard-list-area {
+    background-color: #9b0000;
+    color: #ffffff;
+}
+
+.sidebar-wrapper .bgcard-list-area .heading h4 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.sidebar-wrapper .bgcard-list-area ul>li>a {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.sidebar-wrapper .bgcard-list-area ul>li>a:hover {
+    color: #ffffff;
+}
+
+.sidebar-wrapper .bgcard-list-area ul>li::marker {
+    color: #ffffff;
+}
+
+/* card-list-area-massage */
+
+.card-list-area-massage {
+    background: #FF6B52;
+    padding: 20px;
+    text-align: start;
+}
+
+.card-list-area-massage p {
+    color: #fff;
+    text-align: start;
+    font-size: 14px;
+}
+
+
+
+
+/*====================================> footer-wrapper  CSS <=============================== */
+
+.footer-wrapper {
+    width: 100%;
+    height: auto;
+    background: #000;
+    padding: 10px 0;
+}
+
+.footer-wrapper .footer-list-area ul>li {
+    list-style: disc;
+    margin: 0px 15px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.footer-wrapper .footer-list-area ul li:first-child {
+    list-style: none;
+}
+
+.footer-wrapper .copy-right span {
+    color: #fff;
+    font-size: 13px;
+}
+
+
+/*====================================> crieria-hero-wrappe  CSS <=============================== */
+
+/* crieria-hero-area */
+
+.crieria-hero-wrapper .header-hero-wrapper {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/header-bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 80px !important;
+}
+
+.header-hore-wrapper .header-hero-wrapper .crieria-hero-area h1 {
+    font-size: 27px;
+    font-weight: bold;
+    color: #9b0000;
+    margin-bottom: 20px;
+    line-height: 32px;
+}
+
+.header-hore-wrapper .header-hero-wrapper .crieria-hero-area h5 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    padding: 0px 80px !important;
+    line-height: 32px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .main-header .nav-area .nav-item .nav-link {
+        font-size: 14px;
+    }
+
+    .header-hero-wrapper {
+        padding: 40px 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header-hero-wrapper {
+        padding: 40px 50px;
+    }
+
+    .crieria-hero-wrapper .header-hero-wrapper {
+        padding: 40px 50px !important;
+    }
+
+    .footer-wrapper .row {
+        flex-direction: column;
+        flex-flow: column-reverse;
+        text-align: center;
+    }
+
+    .footer-wrapper .row .col-md-12 {
+        width: 100%;
+    }
+
+    .footer-list-area ul {
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header-hero-wrapper {
+        padding: 40px 20px;
+    }
+
+    .crieria-hero-wrapper .header-hero-wrapper {
+        padding: 40px 20px !important;
+    }
+
+    .header-hero-wrapper .header-hero-contant .header-hero-contant-list {
+        margin: 0 53px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
+    .contact-list-area ul {
+        flex-direction: column;
+        justify-content: center !important;
+        text-align: center;
+        list-style: none;
+    }
+
+    .header-hero-wrapper {
+        padding: 40px 20px;
+    }
+
+    .crieria-hero-wrapper .header-hero-wrapper {
+        padding: 40px 20px !important;
+    }
+
+    .header-hero-wrapper .header-hero-contant .header-hero-contant-list {
+        margin: 0 30px;
+    }
+
+    .header-hero-wrapper .header-hero-contant h1 {
+        font-size: 17px;
+    }
+
+    .main-content-wrapper .main-hiro-area .text-content h1 {
+        font-size: 20px;
+    }
+
+    .main-content-wrapper .main-hiro-area .text-content h3 {
+        font-size: 18px;
+    }
+
+    .service-area .item {
+        border-right: none;
+    }
+
+    .header-hore-wrapper .header-hero-wrapper .crieria-hero-area h1 {
+        font-size: 18px;
+    }
+
+    .header-hore-wrapper .header-hero-wrapper .crieria-hero-area h5 {
+        font-size: 16px;
+        padding: 0px 0 !important;
+        line-height: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .navbar-brand {
+        width: 170px;
+    }
+
+    .header-hero-wrapper .header-hero-contant .header-hero-contant-list {
+        margin: 0 15px;
+    }
+}
