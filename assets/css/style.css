@@ -352,7 +352,7 @@ h6 {
 /* card-list-area-massage */
 
 .card-list-area-massage {
-    background: #FF6B52;
+    background: #ff6b52;
     padding: 20px;
     text-align: start;
 }
@@ -362,9 +362,6 @@ h6 {
     text-align: start;
     font-size: 14px;
 }
-
-
-
 
 /*====================================> footer-wrapper  CSS <=============================== */
 
@@ -390,7 +387,6 @@ h6 {
     color: #fff;
     font-size: 13px;
 }
-
 
 /*====================================> crieria-hero-wrappe  CSS <=============================== */
 
@@ -420,6 +416,32 @@ h6 {
     color: #000;
     padding: 0px 80px !important;
     line-height: 32px;
+}
+
+/*====================================> faq  CSS <=============================== */
+
+.tab-area .nav-pills .nav-link.active,
+.tab-area .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #9b0000;
+}
+
+.tab-area .btn-link {
+    font-weight: 400;
+    color: #9b0000;
+    background-color: transparent;
+}
+
+.tab-area .card {
+    margin-bottom: 7px;
+}
+
+.tab-area .card .card-body ul {
+    margin-left: 20px;
+}
+
+.tab-area .card .card-body ul li {
+    list-style: disc;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -471,7 +493,6 @@ h6 {
 }
 
 @media only screen and (max-width: 414px) {
-
     .contact-list-area ul {
         flex-direction: column;
         justify-content: center !important;
@@ -516,7 +537,6 @@ h6 {
         padding: 0px 0 !important;
         line-height: 25px;
     }
-
 }
 
 @media only screen and (max-width: 375px) {
